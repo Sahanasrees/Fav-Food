@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:gray;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.0em;
+}
+.container{    
+    
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    
+}
+.div-1{
+    background-color: rgb(72, 183, 252);
+    width: 90vw;
+    height: 80vh;
+    border: 5px solid white;
+    text-align: center;
+    font-size: 2.0cm;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(104, 245, 250);
+}
+
+.div-1 p{
+    position:absolute ;  
+    background-color: rgb(5, 5, 5);
+   
+}
+.a{
+   
+    width:90vw;
+    height:80vh;
+    text-align: center;
+}
+.container img{
+    border: 2px solidblack;
+}
+.div-1 p{
+  
+    text-overflow: ellipsis;
+    text-shadow: 0px 0px 50px rgb(230, 224, 215);
+}
+
+  
+
+.div-2{
+    background-color:rgb(252, 51, 95);
+    width: 90vw;
+    height: 80vh;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(12, 13, 12, 0.775);
+}
+
+.b{
+    
+    width:40vw;
+    height:50vh;
+    text-align: center;
+    padding: 1ex;
+}
+.container img{
+    border: 2px solid rgb(252, 246, 246);
+}
+.div-3{
+    background-color:rgb(247, 147, 39);
+    width: 90vw;
+    height: 100vh;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 9, 228);
+}
+.container img{
+    border: 3px solid rgb(243, 236, 236);
+}
+
+.c{
+    width:40vw;
+    height:50vh;
+    padding: 1ex;
+}
+.div-4{
+    background-color: rgb(254, 134, 234);
+    width: 90vw;
+    height: 80vh;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 15PX;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(140, 14, 136);
+}
+
+.d{
+    width: 40vw;
+    height:50vh;
+    padding: 1ex;
+}
+.container img{
+    border: 3px solid rgb(251, 247, 247);
+}
+
